@@ -1,5 +1,5 @@
 
-# Credentials - NE JAMAIS COMMITTER
+# Credentials
 .env
 
 # Python
@@ -7,7 +7,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Data (fichiers lourds)
+# Data 
 data/raw/
 data/clean/
 *.csv
