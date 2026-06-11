@@ -1,5 +1,3 @@
-readme = """
-
 # Pipeline ETL Mobile Money — Côte d'Ivoire 🇨🇮
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -67,9 +65,3 @@ docker-compose up -d
 
 ## Auteurs
 Miézan Sam & Ariel Gnapié
-"""
-
-with open('/content/mobile-money-pipeline-ci/README.md', 'w', encoding='utf-8') as f:
-    f.write(readme)
-
-print("✅ README.md créé")
