@@ -37,17 +37,32 @@ Docker (conteneurisation)
 
 ## Structure du projet
 mobile-money-pipeline-ci/
+
 ├── notebooks/
-│   └── pipeline_etl.ipynb    ← Pipeline complet
+
+│   └── pipeline_etl.ipynb        <- Pipeline ETL complet
+
 ├── dags/
-│   └── dag_mobile_money.py   ← DAG Airflow
+
+│   └── dag_mobile_money.py       <- DAG Airflow
+
+├── sql/
+
+│   └── schema_mobile_money.sql   <- Schéma en étoile commenté
+
 ├── data/
+
 │   └── output/
+
 │       └── dashboard_mobile_money.png
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── .env.example
+
+├── Dockerfile                    <- Image Docker
+
+├── docker-compose.yml            <- Orchestration locale
+
+├── requirements.txt              <- Dépendances Python
+
+└── .env.example                  <- Modèle de configuration
 
 ## Installation
 ```bash
