@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+
+  pipeline:
+    build: .
+    container_name: pipeline_mobile_money
+    env_file: .env
+    volumes:
+      - ./data:/data
+      - ./notebooks:/app/notebooks
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: pipeline_postgres
+    environment:
+      POSTGRES_USER:     airflow
+      POSTGRES_PASSWORD: airflow_secret
+      POSTGRES_DB:       airflow_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

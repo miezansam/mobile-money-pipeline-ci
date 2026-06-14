@@ -1,0 +1,18 @@
+Dependances du pipeline Mobile Money CI
+Genere le : 2026-06-11
+-- Manipulation de donnees
+pandas==2.0.3
+numpy==1.25.2
+pyarrow==13.0.0 # pour lire/ecrire le format Parquet
+-- Base de donnees
+sqlalchemy==2.0.20 # ORM pour se connecter a Supabase
+psycopg2-binary==2.9.7 # driver PostgreSQL
+-- Visualisation
+matplotlib==3.7.2 # graphiques
+seaborn==0.12.2 # graphiques statistiques avances
+-- Qualite et tests
+pytest==7.4.0 # tests unitaires
+great-expectations==0.17.20
+pyarrow==13.0.0
+apache-airflow==2.9.0
+

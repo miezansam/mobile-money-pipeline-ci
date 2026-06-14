@@ -1,0 +1,13 @@
+# Credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data 
+data/raw/
+data/clean/
+*.csv
+*.parquet
