@@ -6,6 +6,15 @@
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-2.9-red)
 ![Docker](https://img.shields.io/badge/Docker-✓-blue)
 
+
+## Auteurs
+**Miézan Sam** 
+## Auteur
+
+**YAO MIÉZAN SAM WILLIAM** & **Ariel Gnapié**, Master 1 DATA-IA, Université Polytechnique de Bingerville
+**Enseignant** : Dr. GOUAH TATO  
+**Année académique** : 2025-2026
+
 ## Contexte
 Pipeline de données complet pour l'analyse des transactions Mobile Money
 en Côte d'Ivoire. 100 000 transactions sur 6 mois (Jan–Juin 2024)
@@ -73,6 +82,6 @@ cp .env.example .env
 # Lancer avec Docker
 docker-compose up -d
 ```
+## Licence
 
-## Auteurs
-**Miézan Sam** & **Ariel Gnapié**
+Projet académique à usage pédagogique.
