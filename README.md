@@ -5,10 +5,7 @@
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-darkgreen)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-2.9-red)
 ![Docker](https://img.shields.io/badge/Docker-✓-blue)
-
-
-## Auteurs
-**Miézan Sam** 
+ 
 ## Auteur
 
 **YAO MIÉZAN SAM WILLIAM** & **Ariel Gnapié**, Master 1 DATA-IA, Université Polytechnique de Bingerville
