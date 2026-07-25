@@ -4,7 +4,8 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-green)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-darkgreen)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-2.9-red)
-![Docker](https://img.shields.io/badge/Docker-✓-blue)
+![Docker](https://img.shields.io/badge/Docker-✓-blue)                                                           
+
 Projet réalisé dans le cadre du Master 1 DATA-IA, module **Data Engennering**, à l'Université Polytechnique de Bingerville (UPB).
 
 ## Auteur
