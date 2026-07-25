@@ -12,11 +12,7 @@ en Côte d'Ivoire. 100 000 transactions sur 6 mois (Jan–Juin 2024)
 couvrant les 4 opérateurs : MTN CI, Orange Money, Moov Africa et Wave.
 
 ## Architecture
-CSV brut → Pandas (ETL) → Supabase PostgreSQL → Schéma en étoile → Dashboard
-↓
-Apache Airflow (orchestration)
-↓
-Docker (conteneurisation)
+![Architecture du pipeline](Architecture.png)
 
 ## Résultats clés
 - 📊 99 800 transactions analysées sur 6 mois
