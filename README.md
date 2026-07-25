@@ -1,4 +1,4 @@
-# Pipeline ETL Mobile Money — Côte d'Ivoire 🇨🇮
+# Pipeline ETL Mobile Money Côte d'Ivoire 🇨🇮
  
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-green)
@@ -79,4 +79,4 @@ docker-compose up -d
 ```
 
 ## Auteurs
-Miézan Sam & Ariel Gnapié
+**Miézan Sam** & **Ariel Gnapié**
