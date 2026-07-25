@@ -5,10 +5,11 @@
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-darkgreen)
 ![Airflow](https://img.shields.io/badge/Apache_Airflow-2.9-red)
 ![Docker](https://img.shields.io/badge/Docker-✓-blue)
- 
+Projet réalisé dans le cadre du Master 1 DATA-IA, module **Data Engennering**, à l'Université Polytechnique de Bingerville (UPB).
+
 ## Auteur
 
-**YAO MIÉZAN SAM WILLIAM** & **Ariel Gnapié**, Master 1 DATA-IA, Université Polytechnique de Bingerville          
+**YAO MIÉZAN SAM WILLIAM** & **Ariel Gnapié**         
 **Enseignant** : Dr. GOUAH TATO  
 **Année académique** : 2025-2026
 
